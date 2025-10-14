@@ -1,11 +1,11 @@
-# Python
+# Python & venv
+.venv/
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-*.egg-info/
-.venv/
-venv/
+*.DS_Store
+.pytest_cache/
 
 # pytest
 .pytest_cache/
@@ -22,3 +22,9 @@ htmlcov/
 
 # Flask artifacts (if any)
 instance/
+
+# OS/editor
+*.swp
+*.swo
+.idea/
+.vscode/
